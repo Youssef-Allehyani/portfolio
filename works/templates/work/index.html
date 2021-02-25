@@ -1,0 +1,255 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+       
+          
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link rel="stylesheet" href="{% static '/css/styles.css' %}">
+
+        <!-- =====BOX ICONS===== -->
+        <link href="{% static '/icon/boxicons-2.0.7/css/boxicons.min.css'%}" rel='stylesheet'>
+        <link href="{% static '/icon/fontawesome-free-5.15.2-web/css/all.min.css'%}" rel='stylesheet'>
+        
+
+
+        <title>Portfolio website complete</title>
+
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="logo" >
+                <div>
+                    <a href="#"><svg class="youssef_logo" ></svg></a>
+                </div>
+                
+                    <a href=" " class="nav__logo name">Youssef E-Portfolio</a>
+                
+                </div>
+                
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        
+                        <li class="nav__item"><a href="#about" class="nav__link" >About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#Courses" class="nav__link">Courses</a></li>
+                        <li class="nav__item"><a href="mailto:yousef4912@gmail.com" target="_blank " class="button-Email nav__link-Email ">E-mail</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__img_social">
+                    <div class="home__img">    
+                        <img  src="static/img/youssef-p.png" alt="">
+                    </div>
+                    <div class="home__social">
+                        <!-- <a href="www.linkedin.com/in/youssef-al-lehyani-050576176" target="_blank " class="home__social-icon"><i class='bx bxl-linkedin'></i></a> -->
+                        <!-- <a href="https://github.com/Allehyani-Youssef?tab=repositories" target="_blank " class="home__social-icon"><i class='bx bxl-github' ></i></a> -->
+                        <a href="https://github.com/Allehyani-Youssef?tab=repositories" target="_blank " class="home__social-github"><i class='bx bxl-github github' ></i></a>
+                    </div>
+
+                </div>
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Youssef Al-lehyani<br> C.S</span> student</h1>
+                    <a href="mailto:yousef4912@gmail.com" class="E">E-mail</a>
+                   
+
+                    <!-- <a href="#" class="button">Contact</a> -->
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="{%static 'img/Image.png' %}" alt=""></img>
+                    </div>
+                    
+                    <div class="about__text">
+                        <h2 class="about__subtitle">I'am Youssef Al-lehyani</h2>
+                        <p >
+                            {{myage}} years old. Computer sciecnce student .
+                            Creative and reliable individual , with broad  skills in computer ,interested to artificial intelligent
+                            and web development .  
+                            Furthermore, I am aware of everything new in technology.
+                            Also, Looking forward to completing the bachelor's degree with success and distinction for do something 
+                            new in this field.  
+
+                            </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section skills_section " id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div class="skills__data-box">
+                    
+                        <div class="div_skills">
+                            <div>
+                                <h3 class= "as" >Programming Skills</h3>
+    
+                                
+    
+                            <!-- <h2 class="skills__subtitle">Profesional Skills</h2>
+                            <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p> -->
+                           
+                            <div class="skills__data skills__data-r">
+                           
+                              <div class="div_dataSkills" >
+                                <div class="skills__names">
+                                    <i class="fab fa-python skills__icon"></i>
+                                    <span class="skills__name">python</span>
+                                </div>
+                                <div class="skills__names">
+                                    <i class="fab fa-java skills__icon"></i>
+                                    <span class="skills__name">java</span>
+                                </div>
+                                
+                                <div class="skills__names">
+                                    <i class='fab fa-html5 skills__icon'></i>
+                                    <span class="skills__name">HTML5</span>
+                                </div>
+                                <div class="skills__names">
+                                    <i class='fab fa-css3-alt skills__icon'></i>
+                                    <span class="skills__name">CSS3</span>
+                                </div>
+                                <div class="skills__names">
+                                    <i class='bx bxl-django skills__icon'></i>
+                                    <span class="skills__name">Django</span>
+                                </div>
+                               
+                               
+                              </div>
+                            </div>
+                            </div>
+                            <div>
+                                <h3 class= "as" > Other skills</h3>
+    
+                       
+    
+                            <!-- <h2 class="skills__subtitle">Profesional Skills</h2>
+                            <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p> -->
+                           
+                            <div class="skills__data skills__data-r">
+                           
+                              <div class="div_dataSkills div_dataSkills-2" >
+                                <div class="skills__names">
+                                    <i class=" fab fa-pied-piper-square skills__icon"></i>
+                                    <span class="skills__name">design</span>
+                                </div>
+                                <div class="skills__names">
+                                    <i class="fas fa-camera skills__icon"></i>
+                                    <span class="skills__name">photography</span>
+                                </div>
+                                
+
+                                <div class="skills__names">
+                                    <i class="fas fa-cut skills__icon"></i>
+                                   
+                                    <span class="skills__name">montage</span>
+                                </div>
+                               
+                              </div>
+                            </div>
+                            </div>
+                            </div>
+                    </div> 
+                   
+                     
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <!-- <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    
+                   {% for works in job.all %}
+                   <div class="work__img">
+                       
+                          <img  class="work__img1" src = "{{ works.images.url}}">
+
+                          
+                    
+                         <p class="summary_text">{{works.summary}}</p>
+
+                   
+                   </div>
+                   {% endfor %}
+                
+                </div>
+            </section> -->
+
+            <!--===== Courses =====-->
+            <section class="contact section" id="Courses">
+                <h2 class="section-title">Courses</h2>
+
+                <div class="contact__container bd-grid">
+                    {% for coures in Courses.all %}
+                    <div class="contact__courses work__img">
+                       <a href="{%url 'coures' coures.id %}">
+                            <img class="contact__input " src = "{{ coures.images.url}}">
+                    </a>
+                    </div>
+                    {% endfor %}
+                   
+                   
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer>
+            <div class="footer">
+                <div>
+                    
+                    </div>
+                
+            <div>
+                <a href="#"><svg class="youssef_logo_footer" ></svg></a>
+                <p class="footer__title">Youssef AL-lehyani</p>
+                <p>&#169; {{ MyDate}} copyright all right reserved</p>
+            </div>
+            <div class="th_footer">
+                    
+                    <i class="fas fa-envelope"></i>
+                    <a > yousef4912@gmail.com</a>
+                    <div>
+                        <a href="https://www.instagram.com/youssef.49_/" target="_blank " class="footer__icon"><i class='bx bxl-instagram' ></i> youssef.49_ </a>
+                    </div></div>
+            </div>  
+
+      
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="{% static '/js/main.js' %}"></script>
+        <script src="{% static '/js/ajax-utils.js' %}"></script>
+    </body>
+</html>
